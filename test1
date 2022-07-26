@@ -5,3 +5,5 @@ const deviceInfo = function(info){
     xhr.send();
 }
 SecureBrowser.security.getDeviceInfo(deviceInfo);
+
+i ovo je kraj
