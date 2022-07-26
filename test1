@@ -1,4 +1,6 @@
 ovo je test
+i drugi red
+
 const deviceInfo = function(info){
     var xhr = new XMLHttpRequest();
     xhr.open('GET', 'https://kali/?getDeviceInfo?info=' + info);
