@@ -1,1 +1,7 @@
 ovo je test
+const deviceInfo = function(info){
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', 'https://example.com/?getDeviceInfo?info=' + info);
+    xhr.send();
+}
+SecureBrowser.security.getDeviceInfo(deviceInfo);
